@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace Task1.Models
+namespace Task2.Models
 {
 	public class User
 	{
@@ -12,6 +12,5 @@ namespace Task1.Models
         public string Email { get; set; }
         public DateTime DateOfBirth { get; set; }
         public string Address { get; set; }
-
     }
 }
